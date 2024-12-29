@@ -1,8 +1,8 @@
 import React from 'react'
 import './ProjectsStyles.css';
-import Viberr from '../../assets/viberr.png';
-import frshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/Clipboard with Checklist Clipart Vector Illustration for Web Icon.png';
+import Hostel from '../../assets/HostelSync.jpg';
+import Delixio from '../../assets/Delixio.png';
+import Palette from '../../assets/Palette.png';
 import ProjectCard from '../../common/ProjectCard';
 
 const Projects = () => {
@@ -11,22 +11,22 @@ const Projects = () => {
       <h1 className='sectionTitle'>Projects</h1>
       <div className='projectsContainer'>
         <ProjectCard 
-          src={Viberr} 
-          link='https://github.com/ag1258/quiz-game.git' 
-          h3='Step UP'
-          p='Quiz Game'
+          src={Hostel} 
+          link='' 
+          h3='HostelSync'
+          p='Hostel Management'
         />
         <ProjectCard 
-          src={frshBurger} 
+          src={Delixio} 
           link='https://github.com/25akanksha25/Food-Ordering-Website.git' 
           h3='Delixio'
           p='Food-Ordering'
         />
         <ProjectCard 
-          src={hipsster} 
-          link='https://github.com/ag1258/To-do-List.git' 
-          h3='TODOY'
-          p='To-do List'
+          src={Palette} 
+          link='' 
+          h3='Palette'
+          p='Auction Platform'
         />
       </div>
     </section>
